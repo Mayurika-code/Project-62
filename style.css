@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    
+}
+
+h1{
+    font-family: cursive;
+}
+
+img{
+    width:400;
+    height: 345;
+}
+#wel{
+    width: 350;
+    border-radius: 20%;
+   height: 260;
+    
+}
+#welcome{
+    background: linear-gradient(lightblue,pink)
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+    text-align: center;
+    background-color: azure;
+}
+
+
+
+
+.links{
+    float:left;
+    padding: 9px;
+    font-size: 20px;
+    color: black;
+}
+.links:hover{
+    background-color:orchid;
+    text-decoration: underline;
+    color:black;
+    transform: scale(1.3);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+#carousel_1{
+    background-color: orangered;
+    
+}
+.carousel-inner p { margin-bottom: 15px; margin-top: 15px; color : red; font-size: 20px; } #carousel_1 { background-color: #b5d0d4; } 
+#carousel_1 
+img { height: 300px; margin-top: 35px; }
